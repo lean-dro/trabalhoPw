@@ -7,6 +7,38 @@ body{
     color: black;
 }
 
+#carouselSite{
+    margin-bottom: 4px;
+}
+
+.containerConteudo{
+    max-width: 1140px;
+}
+
+.containerConteudo{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.col-lg-4 {
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+}
 
 
 
