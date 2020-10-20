@@ -1,32 +1,45 @@
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    
+   
 }
 
 
 
+
+#cor:hover{
+    color: #087b80;
+    
+}
+
+#orcamento:hover{
+    color: #FFFFFF;
+    background-color: #cbbc87;
+    border-radius: 15px;
+}
 
 #carouselSite{
     margin-bottom: 4px;
 }
 
-.containerConteudo{
-    max-width: 1140px;
-}
+
+
+
 
 .containerConteudo{
-    width: 100%;
+    width: 80%;
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
 }
 
+
+
 .row {
     display: flex;
     flex-wrap: wrap;
-    margin-right: -15px;
-    margin-left: -15px;
+    margin-right: 0px;
+    margin-left: 0px;
     text-align: center;
 }
 
@@ -105,20 +118,63 @@ hr {
     overflow: visible;
 }
 
-.featurette-heading{
+h2 .featurette-heading{
     margin-top: 7rem;
     font-size: 50px;
+    text-align: justify;
 }
 
 .lead {
     font-size: 1.25rem;
     font-weight: 300;
+    
 }
 
+.parallax {
+    /* The image used */
+    background-image: url(/images/parallax.png);
+  
+    /* Set a specific height */
+    height: 500px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.70;
+}
+.caption {
+    position: relative;
+    
+    top: 50%;
+    
+    text-align: center;
+    color: #000;
+  }
+  
+.caption span.border {
+    background-color: #cbbc87;
+    color: #333333;
+    padding: 18px;
+    letter-spacing: 2px;
+    font-weight: bolder;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 20px; 
+    text-transform: uppercase; 
+    text-shadow: black 0.1em 0.1em 0.2em";
+}
+  
+.page-footer{
+    background-color: #e4e3e5;
+}
 
 
 /*#087b80 = Flamel
 #333333 = BUFFET
 #cbbc87 = dourado
 #e4e3e5 = prateado
-#0a7c81 = ciano rodelinha*/
+#0a7c81 = ciano rodelinha
+#111111
+#f8f9fa
