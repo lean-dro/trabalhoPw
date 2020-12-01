@@ -3,9 +3,6 @@ body{
    
 }
 
-
-
-
 #cor:hover{
     color: #087b80;
     
@@ -135,7 +132,69 @@ h2 .featurette-heading{
     background-image: url(../images/parallax.png);
   
    
-    height: 500px;
+    height: 590px;
+  
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.70;
+}
+.parallax2 {
+    
+    background-image: url(../images/cardapioSite.jpg);
+  
+    height: 590px;
+  
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.70;
+}
+.parallax25 {
+    
+    background-image: url(../images/completo.jpg);
+  
+    height: 590px;
+  
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.70;
+}
+
+.parallax3 {
+    
+    background-image: url(../images/galeria.jpg);
+  
+    height: 590px;
+  
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.70;
+}
+.parallax4 {
+    
+    background-image: url(../images/PARALAXFORMSSSSSSS.jpg);
+  
+    height: 590px;
+  
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.70;
+}
+.parallax5 {
+    
+    background-image: url(../images/parallaxFaleConosco.jpg);
+  
+   
+    height: 480px;
   
     background-attachment: fixed;
     background-position: center;
@@ -145,9 +204,7 @@ h2 .featurette-heading{
 }
 .caption {
     position: relative;
-    
     top: 50%;
-    
     text-align: center;
     color: #000;
   }
@@ -163,17 +220,116 @@ h2 .featurette-heading{
     font-size: 20px; 
     text-transform: uppercase; 
     text-shadow: black 0.1em 0.1em 0.2em";
+    
 }
   
-.page-footer{
+.pag-footer-copyright{
     background-color: #e4e3e5;
 }
 
+.container text-center{
+    text-align: left;
+}
 
-/*#087b80 = Flamel
+#link-Footer{
+    color: #333333;
+    text-decoration: none;
+}
+
+.btn-floating a:hover {
+    text-decoration: none;
+}
+
+.btn-lg:hover{
+    text-decoration: none;
+}
+
+.conteudo-casamento{
+    background-color: #e7e9eb;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.info-galeria{
+    width: 100%;
+    padding-right: 12%;
+    padding-left: 12%;
+   
+}
+
+
+.botaoCardapio{
+    background-color: #cbbc87;
+    border-color: #e4e3e5;
+}
+.botaoCardapio:hover{
+    background-color: #e4e3e5;
+    color: #cbbc87;
+    border-color: #e4e3e5;
+    box-shadow: none;
+}
+
+.botaoCardapio:focus{
+    background-color: #e4e3e5;
+    color: #cbbc87;
+    border-color: #e4e3e5;
+    box-shadow: none;
+}
+
+.form-control:focus{
+    border-color: #cbbc87;
+    box-shadow: none;
+
+}
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #e4e3e5;
+    border-color: #cbbc87;
+    box-shadow: none;
+}
+.btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-toggle:focus {
+    box-shadow: none;
+}
+.list-group-item.active{
+    background-color: #cbbc87;
+    border-color: #e4e3e5;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    background-color: #e7e9eb;
+  }
+
+  .row3::after {
+    content: "";
+    clear: both;
+    display: table;
+    background-color: #e7e9eb;
+}
+
+
+.form-control{
+    border-color: #cbbc87;
+    width: 50%;
+    margin-left: 25%;
+} 
+
+
+
+.formulario{
+
+    background-color: #cbbc87;
+}
+
+
+
+/*#087b80 = Flamel vai deitar nao! vou  sair um agorapouco por causa dasm inhas costas mas eu volto nao demoro
 #333333 = BUFFET
 #cbbc87 = dourado
 #e4e3e5 = prateado
 #0a7c81 = ciano rodelinha
-#111111
-#f8f9fa
+#f8f9fa = branco que nao é branco

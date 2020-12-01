@@ -7,152 +7,443 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="css/estilo.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
 </head>
 <body>
-    <header class="sticky-top"> 
-        <nav class="navbar navbar-expand-xl navbar-light bg-light">
+  <header class="sticky-top"> 
+    <nav class="navbar navbar-expand-xl navbar-light bg-light">
+    
+    <div class="container">
+    <a class="navbar-brand" href="#"><img class="img-fluid" src="images/logoFlamel.png" width="55%" alt="Logo do Buffet Flamel"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite" style="background-color: #cbbc87; outline-color: #cbbc87;">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSite">
+    
+      <ul class="navbar-nav">
         
-        <div class="container">
-        <a class="navbar-brand" href="#"><img class="img-fluid" src="images/logoFlamel.png" width="55%" alt="Logo do Buffet Flamel"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite" style="background-color: #cbbc87; outline-color: #cbbc87;">
-        <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSite">
-        
-          <ul class="navbar-nav">
-            
-          <li class="nav-item">
-            <a id="cor" class="nav-link"  href="index.html">HOME <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-house-door" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-              <path fill-rule="evenodd" d="M7.646 1.146a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 .146.354v7a.5.5 0 0 1-.5.5H9.5a.5.5 0 0 1-.5-.5v-4H7v4a.5.5 0 0 1-.5.5H2a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .146-.354l6-6zM2.5 7.707V14H6v-4a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 .5.5v4h3.5V7.707L8 2.207l-5.5 5.5z"/>
-              <path fill-rule="evenodd" d="M13 2.5V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
-            </svg></a>
-          </li>
-          <li class="nav-item">
-            <a id="cor" class="nav-link" href="#">QUEM SOMOS <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-people-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-              <path fill-rule="evenodd" d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H7zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-5.784 6A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1h4.216zM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z"/>
-            </svg></a>
-          </li>
-          <li class="nav-item">
-            <a id="cor" class="nav-link" href="#">GALERIA <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-card-image" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-              <path fill-rule="evenodd" d="M14.5 3h-13a.5.5 0 0 0-.5.5v9c0 .013 0 .027.002.04V12l2.646-2.354a.5.5 0 0 1 .63-.062l2.66 1.773 3.71-3.71a.5.5 0 0 1 .577-.094L15 9.499V3.5a.5.5 0 0 0-.5-.5zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13zm4.502 3.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/>
-            </svg></a>
-          </li>
-          <li class="nav-item">
-            <a id="cor" class="nav-link" href="faleConosco.html">FALE CONOSCO <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chat-right-text" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-              <path fill-rule="evenodd" d="M2 1h12a1 1 0 0 1 1 1v11.586l-2-2A2 2 0 0 0 11.586 11H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zm12-1a2 2 0 0 1 2 2v12.793a.5.5 0 0 1-.854.353l-2.853-2.853a1 1 0 0 0-.707-.293H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h12z"/>
-              <path fill-rule="evenodd" d="M3 3.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zM3 6a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9A.5.5 0 0 1 3 6zm0 2.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z"/>
-            </svg></a>
-          </li>
-          <li class="nav-item">
-            <a id="orcamento" class="nav-link" href="#">ORÇAMENTOS</a>
-          </li>
-          </ul>
+      <li class="nav-item">
+        <a id="cor" class="nav-link"  href="index.html">HOME <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-house-door" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" d="M7.646 1.146a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 .146.354v7a.5.5 0 0 1-.5.5H9.5a.5.5 0 0 1-.5-.5v-4H7v4a.5.5 0 0 1-.5.5H2a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .146-.354l6-6zM2.5 7.707V14H6v-4a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 .5.5v4h3.5V7.707L8 2.207l-5.5 5.5z"/>
+          <path fill-rule="evenodd" d="M13 2.5V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
+        </svg></a>
+      </li>
+      <li class="nav-item">
+        <a id="cor" class="nav-link" href="cardapio.html">CARDÁPIO <svg width="1em" height="1.0625em" viewBox="0 0 16 17" class="bi bi-cup-straw" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" d="M13.964 1.18a.5.5 0 0 1-.278.65l-2.255.902-.462 2.08c.375.096.714.216.971.368.228.135.56.396.56.82 0 .046-.004.09-.011.132l-.955 9.068a1.28 1.28 0 0 1-.524.93c-.488.34-1.494.87-3.01.87-1.516 0-2.522-.53-3.01-.87a1.28 1.28 0 0 1-.524-.93L3.51 6.132A.78.78 0 0 1 3.5 6c0-.424.332-.685.56-.82.262-.154.607-.276.99-.372C5.824 4.614 6.867 4.5 8 4.5c.712 0 1.389.045 1.985.127l.527-2.37a.5.5 0 0 1 .302-.355l2.5-1a.5.5 0 0 1 .65.279zM9.768 5.608A13.991 13.991 0 0 0 8 5.5c-1.076 0-2.033.11-2.707.278A3.284 3.284 0 0 0 4.645 6c.146.073.362.15.648.222C5.967 6.39 6.924 6.5 8 6.5c.571 0 1.109-.03 1.588-.085l.18-.808zm.292 1.756a5.513 5.513 0 0 0 1.325-.297l-.845 8.03c-.013.12-.06.185-.102.214-.357.249-1.167.69-2.438.69-1.27 0-2.08-.441-2.438-.69-.041-.029-.09-.094-.102-.214l-.845-8.03c.137.046.283.088.435.126.774.194 1.817.308 2.95.308.742 0 1.445-.049 2.06-.137zm-5.593-1.48s.003.002.005.006l-.005-.006zm7.066 0l-.005.006a.026.026 0 0 1 .005-.006zM11.354 6a3.282 3.282 0 0 1-.703.235l.1-.446c.264.069.464.142.603.211z"/>
+          </svg></a>
+      </li>
+      <li class="nav-item">
+        <a id="cor" class="nav-link" href="galeria.html">GALERIA <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-card-image" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" d="M14.5 3h-13a.5.5 0 0 0-.5.5v9c0 .013 0 .027.002.04V12l2.646-2.354a.5.5 0 0 1 .63-.062l2.66 1.773 3.71-3.71a.5.5 0 0 1 .577-.094L15 9.499V3.5a.5.5 0 0 0-.5-.5zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13zm4.502 3.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/>
+        </svg></a>
+      </li>
+      <li class="nav-item">
+        <a id="cor" class="nav-link" href="faleConosco.html">FALE CONOSCO <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chat-right-text" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" d="M2 1h12a1 1 0 0 1 1 1v11.586l-2-2A2 2 0 0 0 11.586 11H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zm12-1a2 2 0 0 1 2 2v12.793a.5.5 0 0 1-.854.353l-2.853-2.853a1 1 0 0 0-.707-.293H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h12z"/>
+          <path fill-rule="evenodd" d="M3 3.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zM3 6a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9A.5.5 0 0 1 3 6zm0 2.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z"/>
+        </svg></a>
+      </li>
+      <li class="nav-item">
+        <a id="orcamento" class="nav-link" href="faleConosco.html">ORÇAMENTOS</a>
+      </li>
+      </ul>
+    </div>
+    </div>
+    </nav>
+    </header>
+    
+    <div class="parallax4">
+      <div class="caption">
+          <div class="row">
+            <span class="border col-lg-12">
+             <h1>Fale conosco</h1>
+            </span>
+          </div>
         </div>
-        </div>
-        </nav>
-        </header>
+  </div>
 
-<div class="containerConteudo">
-
-    <form id="formCadastro" method="POST">
-        Nome:
-        <input type="text" name="nome" id="nome" size="30px">
-        <br>
-        <br>  
-        E-mail: 
-        <input type="email" name="email" id="email" size="25px">
-        <br>
-        <br>
-        Data de nascimento:
-        <input type="date" name="dataNasct" id="dataNasct">
-        <br>
-        <br>
-        Sexo: 
-        <input type="radio" name="sexo" id="sexo" value="F"> Feminino 
-        <input type="radio" name="sexo" id="sexo" value="M"> Masculino 
-        <input type="radio" name="sexo" id="sexo" value="outros"> Outros
-        <br>
-        <br>
-        Tipo de festa:
-        <select id="tipoFesta" name="tipoFesta">
-          <option value="1">Coquetel básico</option>
-          <option value="2">Coquetel premium</option>
-          <option value="3">Jantar completo</option>
-        </select>
-        <br>
-        <br>
-        Quantidade de convidados:
-        <input type="text" name="qtdConvidados" id="qtdConvidados" size="2px" >
-        <br>
-        <br>
-        Adicionais:
-        <br>
-        
-       <input type="checkbox" name="adicionaisMesa" id="adicionaisMesa"> Mesa de frutas + 10,00 por convidado
-       <br>
-       <input type="checkbox" name="adicionaisDecoracao" id="adicionaisDecoracao"> Decoração premium + 500 no valor total do evento
-       <br>
-       <input type="checkbox" name="adicionaisDj" id="adicionaisDj"> DJ + 800 no valor total do evento
-       <br>
-       Comentário:
-       <br> 
-       <textarea name="" id="" cols="30" rows="5"></textarea>
-      <br>
-      <br>
-      <button type="submit" id="botao" name="botao" onclick="enviar()">Enviar</button>
+  <br>
+  <h2 style="text-align: center">O cenário ideal para o seu grande dia!</h2>
+  <p style="text-align: center; font-size: 18px">Venha conhecer nossos espaços, localizados em Guaianases. </p>
+  <div class="padraoFlamel" style="text-align: center;"><br>
+    <img src="images/padraoFlamel.png" class="mx-auto" width="100%">
+  </div>
+  <br><br><br><br>
+  
+  <div class="container-xl-2">
+        <div class="row featurette">
+            <div class="col-xl-4" style="margin-left: 10%; margin-right: 30px">
+                <h2 class="h2-galeria">Espaço Flamel</h2>
+                <hr class="accent-2 mb-1 mt-0 d-inline-block mx-auto" style="width: 100px; background-color: #cbbc87">
+                <p class="lead">Com uma das mais belas estruturas da região, o Espaço Flamel encanta 
+                  anfitriões e convidados com sua imponência.<br>
+                </p>    
+                <p class="lead">A unidade oferece um espaço marcante e próprio, que proporciona 
+                  diferentes sensações, todas maravilhosas e indescritíveis, tornando o seu evento 
+                  inesquecível:    
+                </p>
+                <p class="lead">
+                  <i class="far fa-check-circle" style="font-size:24px; color: #cbbc87"></i> 
+                   Gazebo de vidro inédito na área externa;
+                </p>
+                <p class="lead"><i class="far fa-check-circle" style="font-size:24px; color: #cbbc87"></i>
+                    O espaço comporta entre 100 a 500 convidados sentados; 
+                </p>
+                <p class="lead"><i class="far fa-check-circle" style="font-size:24px; color: #cbbc87"></i>
+                  Escada triunfal para entrada de Noivas, Debutantes e demais anfitriões; 
+                </p>
+                <p class="lead"><i class="far fa-check-circle" style="font-size:24px; color: #cbbc87"></i>
+                  Amplitude e conforto;
+                </p>
+                <p class="lead"><i class="far fa-check-circle" style="font-size:24px; color: #cbbc87"></i>
+                  Gazebo de vidro para cerimônia no local comporta até 250 convidados sentados.
+                </p>
+                <br>
+                <p><a class="btn-lg btn-secondary" href="#parallax5" role="button">FALE COM UM CONSULTOR</a></p><br>
+            </div>  
+            <div class="col-xl-6">
+              <div class="col-xl-12">
+                <img class="featurette-image img-fluid" class="mx-auto" src="images/espaçoFlamel.jpg" style="border-radius: 8px; width: 100%;" alt="Espaço Flamel">
+            </div>
+          </div>
+          </div>
+</div><br>
 
 
 
-      </form>
 
 
+
+
+
+
+
+
+
+
+<div id="parallax5" class="parallax5">
+  
 </div>
+
+
+
+
+<br>
+<!--forms-->
+<div class="formulario">
+  <form class="text-center container shadow p-3 mb-5 bg-white rounded" id="formCadastro" method="POST">
+    <h4>Realize seu evento no Buffet Flamel!</h4>
+    <p>Preencha o formulário para realizar um orçamento.</p><br>
+      <div class="form-group">
+          <label for="nome">Nome</label>
+            <input class="form-control"  type="text" name="nome" id="nome" required autofocus>
+      </div>  
+      
+      <div class="form-group">     
+            <label for="email">E-mail</label> 
+            <input class="form-control" type="email" name="email" id="email" required>
+      </div>     
+    
+      <div class="form-group">  
+      
+            <label for="dataNasct">Data de nascimento</label>
+            <input class="form-control" type="date" name="dataNasct" id="dataNasct" required>
+        
+      </div>  
+        
+      <div class="form-group">  
+             
+          <label class="" for="sexo">Sexo </label>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="sexo" id="sexo" value="F" required> 
+              <label  class="form-check-label" for="sexo">
+              Feminino
+              </label>   
+          </div>   
+              
+              
+          <div class="form-check">
+              <input class="form-check-input" type="radio" name="sexo" id="sexo" value="M" required> 
+              <label  class="form-check-label">
+              Masculino
+              </label> 
+          </div>
+              
+          <div class="form-check ">
+              <input class="form-check-input" type="radio" name="sexo" id="sexo" value="outros" required> 
+              <label  class="form-check-label">
+              Outros
+              </label>
+          </div>   
+    </div>  
+      <div class="form-group ">  
+          <label>Tipo de festa</label>
+          <select class="form-control" id="tipoFesta" name="tipoFesta" required>
+          <option value="">--Selecione--</option>
+          <option value="1">Casamento</option>
+          <option value="2">Debutante</option>
+          <option value="3">Aniversário</option>
+          </select>
+      </div> 
+      
+      <div class="form-group  ">  
+            <label>Cardápio</label>
+            <select class="form-control" id="tipoCardapio" name="tipoCardapio" required>
+            <option value="">--Selecione--</option>
+            <option value="1">Coquetel básico</option>
+            <option value="2">Coquetel premium</option>
+            <option value="3">Jantar completo</option>
+            </select>
+      </div>    
+     
+      <div class="form-group  ">
+          <label>N° convidados</label>
+            <input class="form-control" type="text" name="qtdConvidados" id="qtdConvidados" required>   
+      </div>   
+      
+      <div class="form-group c">
+          <label>Adicionais</label>
+          
+          <div class="col-md-12 form-check"> 
+            <input class="form-check-input" type="checkbox" name="adicionaisMesa" id="adicionaisMesa"> 
+            <label  class="form-check-label">
+              Mesa de frutas = + R$ 10,00 por convidado
+            </label>
+          </div> 
+          
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" name="adicionaisDj" id="adicionaisDj"> 
+            <label class="form-check-label">
+              DJ = + R$ 800,00 no valor total do evento
+            </label>
+          </div>
+          
+            <div class="form-check">  
+            <input class="form-check-input" type="checkbox" name="adicionaisDecoracao" id="adicionaisDecoracao"> 
+            <label class="form-check-label">
+              Decoração premium = + R$ 500,00 no valor total do evento
+            </label>  
+          </div> 
+      </div>
+      
+      <div class="form-group">
+        <label>Comentário</label>
+        <textarea class="form-control " rows="4"></textarea>
+      </div>   
+     
+      <div class="form-check">
+     <input type="checkbox" class="form-check-input" id="receberEmail" name="receberEmail">
+     <label class="form-check-label">
+       Deseja receber atualizações e ofertas de nosso buffet?
+     </label>
+      </div>
+     
+      <br>
+    <button class="btn btn-warning" style="background-color: #0a7c81; color: white" onclick="enviar()" type="submit">Enviar</button>      
+      
+      </form>
+</div>
+
+
+<!--final forms-->
+
+    <!--footer de dados de contato-->
+    <footer class="pag-footer-info" style="background-color: #f8f9fa;">
+    
+      <div class="container text-center">
+        <!--row-->
+        <div class="row" style="text-align: left">
+          <!--coluna 1-->
+          <div class="col-md-4 col-lg-5 my-md-4 my-0 mt-4 mb-1">
+            <h5 class="font-weight-bold text-uppercase">Buffet Flamel</h5>
+            <hr class="accent-2 mb-2 mt-0 d-inline-block mx-auto" style="width: 100px;">
+            <p class="p-footer">Desde 2010, o Buffet Flamel vem realizando eventos marcantes e encantadores.
+              Fundado no tradicional Bairro de Guaianases, por um grupo de amigos apaixonados por eventos.
+            </p>
+            <p class="p-footer">O Buffet Flamel conta com um espaço deslumbrante. E 
+              nossa missão é e sempre será realizar eventos, ultrapassando as melhores
+              expectativas, e eternizando momentos!
+            </p>
+          </div>
+          <!--coluna 1 final-->
+    
+          <hr class="clearfix w-100 d-md-none">
+    
+          <!--coluna 2-->
+          <div class="col-md-2 col-lg-2 my-md-4 my-0 mt-4 mb-1">
+            <h5 class="font-weight-bold text-uppercase">Sobre</h5>
+            <hr class="accent-2 mb-1 mt-0 d-inline-block mx-auto" style="width: 40px;">
+            <ul class="list-unstyled">
+              <li>
+                <p class="p-footer">
+                  <a id="link-Footer" href="index.html">HOME</a>
+                </p>
+              </li>
+              <li>
+                <p class="p-footer">
+                  <a id="link-Footer" href="cardapio.html">CARDÁPIO</a>
+                </p>
+              </li>
+              <li>
+                <p class="p-footer">
+                  <a id="link-Footer" href="galeria.html">GALERIA</a>
+                </p>
+              </li>
+              <li>
+                <p class="p-footer">
+                  <a id="link-Footer" href="faleConosco.html">FALE CONOSCO</a>
+                </p>
+              </li>
+              <li>
+                <p class="p-footer">
+                  <a id="link-Footer" href="faleConosco.html">ORÇAMENTOS</a>
+                </p>
+              </li>
+            </ul>
+          </div>
+          <!--coluna 2 final-->
+    
+          <hr class="clearfix w-100 d-md-none">
+      
+          <!--coluna 3-->
+          <div class="col-md-4 col-lg-3 mx-auto my-md-4 my-0 mt-4 mb-1">
+            <h5 class="font-weight-bold text-uppercase">Contato</h5>
+            <hr class="accent-2 mb-1 mt-0 d-inline-block mx-auto" style="width: 70px;">
+            <ul class="list-unstyled">
+              <li>
+                <p class="p-footer">
+                  <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-house-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M8 3.293l6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6zm5-.793V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
+                    <path fill-rule="evenodd" d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"/>
+                  </svg>&nbsp; R. Felíciano de Mendonça, 290 - Guaianases, São Paulo - SP</p>
+              </li>
+              <li>
+                <p class="p-footer">
+                  <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-envelope-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z"/>
+                  </svg>&nbsp; contato@buffetflamel.com.br</p>
+              </li>
+              <li>
+                <p class="p-footer">
+                  <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-telephone-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M2.267.98a1.636 1.636 0 0 1 2.448.152l1.681 2.162c.309.396.418.913.296 1.4l-.513 2.053a.636.636 0 0 0 .167.604L8.65 9.654a.636.636 0 0 0 .604.167l2.052-.513a1.636 1.636 0 0 1 1.401.296l2.162 1.681c.777.604.849 1.753.153 2.448l-.97.97c-.693.693-1.73.998-2.697.658a17.47 17.47 0 0 1-6.571-4.144A17.47 17.47 0 0 1 .639 4.646c-.34-.967-.035-2.004.658-2.698l.97-.969z"/>
+                  </svg>&nbsp; (11) 2554-6192</p>
+              </li>
+              <li>
+                <p class="p-footer">
+                  <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-phone-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M3 2a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V2zm6 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+                  </svg>&nbsp;(11) 99977-4336</p>
+              </li>
+            </ul>
+          </div>
+          <!--coluna 3 final-->
+    
+          <hr class="clearfix w-100 d-md-none">
+      
+          <!--coluna 4-->
+          <div class="col-md-2 col-lg-2 text-center mx-auto my-4">
+            <h5 class="font-weight-bold text-uppercase">Redes Sociais</h5>
+            <hr class="accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 110px;">
+            <br>
+              <a type="button" class="btn-floating">
+                <i class="fab fa-facebook" style="font-size:46px; color: #cbbc87"></i>
+              </a>
+              &nbsp;&nbsp;&nbsp;&nbsp;
+              <a type="button" class="btn-floating">
+                <i class="fab fa-instagram" style="font-size:46px; color: #cbbc87"></i>
+              </a>
+              <br><br>
+              <a type="button" class="btn-floating">
+                <i class="fab fa-twitter" style="font-size:46px; color: #cbbc87"></i>
+              </a>
+          </div>
+          <!--coluna 4 final-->
+        </div>
+        <!--row final-->
+      </div>
+      <!-- Footer Links -->
+    </footer>
+    <!--footer de dados de contato-->
+    
+    
+    <!--footer de direitos autorais-->
+    <footer class="pag-footer-copyright">
+      <div class="footer-copyright text-center py-2">
+        <a href="index.html">
+          <img src="images/iconFlamel.png" width="45" height="45">
+        </a><br>
+        © Copyright 2020 - Buffet Flamel. Todos os Direitos Reservados
+      </div>
+    </footer>
+    <!--footer de direitos autorais-->
+  
+
+
+
+
+<!--javascript-->
 <script>
   function enviar(){
-    
-    var nome = document.getElementById('nome').value;
-    var festas = document.getElementById('tipoFesta').selectedIndex;
-    var festTipo = document.getElementById('tipoFesta').options[festas].value;
-    var preco;
-    
-    var convidados = document.getElementById('qtdConvidados').value;
-    
-    if (festTipo == 1) {
-      preco = convidados*50;
-    }
-      else{
-        if (festTipo == 2) {
-          preco = convidados * 60;
-        }
-        else{
-          preco = convidados * 80;
-        }
-      }
-    
-    alert("Caro cliente "+nome+", de acordo com suas escolhas, calculamos:");
+    var preco=0;
+    convidados = document.getElementById('qtdConvidados').value;
+    var cardapioConvidados;
+    var adicionais=0;
+    nome = document.getElementById('nome').value;
 
-    if (document.getElementById('adicionaisMesa').checked) {
-      preco = (preco) + convidados * 10;
-    } else {
-      if (document.getElementById('adicionaisDecoracao').checked) {
-        preco = preco + 500;
-      }
-      else{
-        if (document.getElementById('adicionaisDj').checked) {
-          preco = preco + 800;
-        }
-        else{
-          alert("C")
-        }
-      }
+     
+    if (document.getElementById('tipoFesta').value==1) {
+      preco = 16000;
+    }
+    if (document.getElementById('tipoFesta').value==2) {
+      preco = 8000;
+    }
+    if (document.getElementById('tipoFesta').value==3) {
+      preco = 6000;
     }
 
-    alert("");
+    if (document.getElementById('tipoCardapio').value==1) {
+      cardapioConvidados = convidados*50;
+    }
+    if (document.getElementById('tipoCardapio').value==2) {
+      cardapioConvidados = convidados*60;
+    }
+    if (document.getElementById('tipoCardapio').value==3) {
+      cardapioConvidados = convidados*80;
+    }
+
+
+    if (formCadastro.adicionaisMesa.checked) {
+      adicionais = 10 * convidados+adicionais;
+    }
+    if (formCadastro.adicionaisDecoracao.checked) {
+      adicionais = adicionais + 500;
+    }
+    if (formCadastro.adicionaisDj.checked) {
+      adicionais = adicionais + 800;
+    }
+
+    preco = preco + cardapioConvidados + adicionais;
     
 
+    if(confirm("As informações estão corretas?")) {
+      alert("Será calculado um orçamento de acordo com suas escolhas")
+      alert("Cliente "+nome+", calculamos o seguinte orçamento: R$"+preco);
+
+    // esperto :3
+    // >w<
+    }else{
+      alert("Cálculo encerrado");
+      document.getElementById('formCadastro').value = " ";
+    }
+  
+    
 
 
   }
+
+
 </script>
 
 
@@ -160,3 +451,4 @@
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
 </body>
+</html>
